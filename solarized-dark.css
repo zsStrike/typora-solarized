@@ -173,7 +173,7 @@ table {
 }
 
 blockquote {
-    margin: 1.6em 3.2em;
+    /* margin: 1.6em 3.2em; */
 }
 
 li > ol,
@@ -275,7 +275,7 @@ table tr {
 }
 
 table tr:nth-child(2n) {
-    background-color: #f8f8f8;
+    background-color: #073642;
 }
 
 table tr th {

@@ -6,6 +6,7 @@
     --active-file-bg-color: #fdf6e3;
     --active-file-text-color: #93a1a1;
     --item-hover-text-color: #93a1a1;
+    --bg-color: #fdf6e3;
 }
 
 @include-when-export url(http://fonts.googleapis.com/css?family=Roboto+Mono:400italic,700italic,700,400&subset=latin,latin-ext);
@@ -176,7 +177,7 @@ table {
 }
 
 blockquote {
-    margin: 1.6em 3.2em;
+    /* margin: 1.6em 3.2em; */
 }
 
 li > ol,
@@ -334,14 +335,14 @@ tt {
     padding-left: 0;
 }
 
-.task-list-item {
+/* .task-list-item {
     padding-left: 32px;
 }
 
 .task-list-item input {
     top: 3px;
     left: 8px;
-}
+} */
 
 @media screen and (min-width: 914px) {
     /*body {
@@ -408,7 +409,7 @@ tt {
     padding: 8px 16px;
     font-size: 0.9em;
     color: inherit;
-    background-color: 
+    /* background-color:  */
 }
 
 .md-tag {
