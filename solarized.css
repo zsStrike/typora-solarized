@@ -1,3 +1,5 @@
+@import 'solarized/fonts.css';
+
 :root {
     --side-bar-bg-color: #eee8d5;    
     --text-color: #839496;
@@ -44,7 +46,8 @@ html {
 }
 
 body {
-    font-family: Consolas, Mononoki, "Roboto Sans", "Liberation Mono", monospace;
+    /* font-family: Consolas, Mononoki, "Roboto Sans", "Liberation Mono", monospace; */
+    font-family: 'Ubuntu', 'Source Sans Pro', sans-serif !important;
     color: #586e75;
     line-height: 1.6;
     background-color: #fdf6e3;
@@ -461,3 +464,4 @@ footer {
 .mac-seamless-mode #typora-sidebar {
     background-color: var(--side-bar-bg-color);
 }
+
