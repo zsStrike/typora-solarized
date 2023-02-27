@@ -282,7 +282,7 @@ table tr {
 }
 
 table tr:nth-child(2n) {
-    background-color: #f8f8f8;
+    background-color: #f4ecd2a8;
 }
 
 table tr th {
